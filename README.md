@@ -1,11 +1,11 @@
-# Se você usa MacOS
+# MacOS
 O macOs roda sobre Darwin OS (kernel XNU), que é um sistema UNIX-like. Então, 
 todos os comandos abaixo também funcionam normalmente no MacOS. Recomendo
 utilizar o gerenciador de pacotes homebrew caso necessário instalar algo.
 Se quiser o mesmo terminal que eu (ZSH com Oh My ZSH), utilize este vídeo para 
 configurar [https://youtu.be/bs1-Wxb_KIc](https://youtu.be/bs1-Wxb_KIc)
 
-# Se você usa Windows
+# Windows
 No Windows é possível utilizar o wsl2 e instalar uma versão do linux para 
 acompanhar. Eu fiz alguns vídeos para você usar o Linux no Windows. 
 Primeiro, siga este vídeo para ativar o WSL2 [https://youtu.be/05YN8F8ajBc](https://youtu.be/05YN8F8ajBc); depois, configure seu terminal com ZSH com este outro vídeo [https://youtu.be/y-w-gamp4U0](https://youtu.be/y-w-gamp4U0).  
@@ -15,9 +15,9 @@ Primeiro, siga este vídeo para ativar o WSL2 [https://youtu.be/05YN8F8ajBc](htt
 - CLI - Command Line Interface  
 
 # Comandos mais básicos e muito usados
-## Privilégios do usuário
-- `sudo` - Permite executar programas c/ privilégios de outro usuário - por padrão,
-  como o root). `sudo` significa "substitute user do" (usuário 
+## Privilégios do utilizador
+- `sudo` - Permite executar programas c/ privilégios de outro utilizador - por padrão,
+  como o root). `sudo` significa "substitute user do" (utilizador 
   substituto faça)  
   
 Vídeo sobre su, sudo e sudoers. Nesse vídeo eu detalho mais sobre o comando su, sudo e o arquivo sudoers:
@@ -31,7 +31,7 @@ Vídeo sobre su, sudo e sudoers. Nesse vídeo eu detalho mais sobre o comando su
   - `-h` - com -l, é um sufixo de tamanho para facilitar a leitura   
   - `-@` - mostra atributos estendidos  
 
-Vídeo sobre permissões no Linux. Isso vai te ajudar a entender melhor como o sistema de Usuários, grupos e permissões no Linux (Ubuntu):
+Vídeo sobre permissões no Linux. Isso vai te ajudar a entender melhor como o sistema de Utilizadores, grupos e permissões no Linux (Ubuntu):
 
 - [https://youtu.be/S2h92LNcEz8](https://youtu.be/S2h92LNcEz8)
 
@@ -85,7 +85,7 @@ Mais comandos:
 - `file` - mostra o tipo do arquivo  
 - `history` - histórico de comandos já digitados  
 - `pkill` - mata processos
-- `whoami` - mostra seu usuário
+- `whoami` - mostra seu utilizador
 - `hostname` - mostra o nome do seu computador
 - `uname` - mostra dados sobre o sistema
 - `ps aux` - mostra todos os processos rodando no sistema no momento da execução 
